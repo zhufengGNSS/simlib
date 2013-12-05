@@ -1,0 +1,14 @@
+#############################################################################
+# Specialized Linux Makefile for SIMLIB test models
+#
+
+CXX=g++ -m32
+
+CXXFLAGS  = -Wall -std=c++98
+CXXFLAGS += -g  # debugging info
+CXXFLAGS += -O2 # optimization level
+#CXXFLAGS += -pg # profiling support
+
+include Makefile.generic
+
+# end of Makefile
